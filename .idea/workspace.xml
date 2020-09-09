@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="969d4e04-ce1a-47ef-bd5a-a2f9fa8c7125" name="Default Changelist" comment="" />
+    <list default="true" id="969d4e04-ce1a-47ef-bd5a-a2f9fa8c7125" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/form_handler/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/form_handler/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/form_handler/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/form_handler/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +36,11 @@
     <expand />
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dO08BizgygOQ1vodjVe5eqZYyg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -67,7 +82,13 @@
       <workItem from="1595933718995" duration="26000" />
       <workItem from="1596679659750" duration="55000" />
       <workItem from="1599441158466" duration="602000" />
-      <workItem from="1599534718088" duration="845000" />
+      <workItem from="1599534718088" duration="2807000" />
+      <workItem from="1599612796304" duration="3115000" />
+      <workItem from="1599620625746" duration="3125000" />
+      <workItem from="1599623766292" duration="1599000" />
+      <workItem from="1599629423609" duration="10931000" />
+      <workItem from="1599647096725" duration="4559000" />
+      <workItem from="1599657987253" duration="8996000" />
     </task>
     <servers />
   </component>
@@ -83,6 +104,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592294429655" />
+    <state x="589" y="151" key="IDE.errors.dialog" timestamp="1599615352143">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="589" y="151" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1599615352143" />
+    <state x="598" y="138" key="RollbackChangesDialog" timestamp="1599644341263">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="598" y="138" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599644341263" />
+    <state x="797" y="142" width="711" height="546" key="find.popup" timestamp="1599623004995">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="797" y="142" width="711" height="546" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599623004995" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592293071701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

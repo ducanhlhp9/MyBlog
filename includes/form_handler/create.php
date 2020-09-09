@@ -1,5 +1,5 @@
 <?php
-  $mysqli = new mysqli("localhost","root","","blogging_system") or die("Could not connect");
+  $mysqli = new mysqli("localhost","root","canh","blogging_system") or die("Could not connect");
   $error = [];
   if(isset($_POST['create_submit'])) {
     $username = clean($_POST['username']);
@@ -34,7 +34,7 @@
             break;
         }
         $hashedPwd = md5($pwd);
-        $sql = mysqli_query($mysqli, "INSERT INTO users VALUES('','$username','$email','$hashedPwd','$profile_pic','yes','0','Admin')");
+        $sql = mysqli_query($mysqli, "INSERT INTO users VALUES('','$username','$email','$hashedPwd','$profile_pic','yes',0,'Admin')");
         header("Location: ../../cms-admin.php?admin_created");
       }
     }

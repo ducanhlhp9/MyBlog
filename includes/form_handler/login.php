@@ -1,6 +1,6 @@
 <?php
 session_start();
-$mysqli = new mysqli("localhost","root","","blogging_system") or die("Could not connect");
+$mysqli = new mysqli("localhost","root","canh","blogging_system") or die("Could not connect");
 
 if(isset($_POST['login_submit'])) {
   $email = $_POST['email'];
@@ -20,7 +20,8 @@ if(isset($_POST['login_submit'])) {
     $_SESSION['profile_pic'] = $profile_pic;
     $_SESSION['username'] = $username;
     header("Location: ../../admin");
-  }else{
+  }
+  else{
     $_SESSION['log_email'] = $email;
     header("Location: ../../cms-admin.php?wrong_entries");
   }
