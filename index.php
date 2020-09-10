@@ -24,29 +24,11 @@
 
                 <!-- END main-content -->
 
-                <div class="col-md-12 col-lg-4 sidebar">
-                    <div class="sidebar-box search-form-wrap">
-                        <form action="search.php" class="search-form" method="post">
-                            <div class="form-group">
-                                <span class="icon fa fa-search"></span>
-                                <input type="text" name="search" class="form-control" id="s"
-                                       placeholder="Type a keyword and hit enter">
-                            </div>
-                        </form>
-                    </div>
-                    <!-- END sidebar-box -->
+                <!--start side_bar-->
 
-                    <!-- END sidebar-box -->
-                    <?php include 'includes/sidebar.php'; ?>
-                    <!-- END sidebar-box -->
-                    <?php include 'includes/category.php'; ?>
+                <?php include "side_bar.php" ?>
 
-                    <!-- END sidebar-box -->
-
-                    <?php include 'includes/tags.php'; ?>
-                </div>
-                <!-- END sidebar -->
-
+                <!--end side_bar-->
             </div>
         </div>
     </section>

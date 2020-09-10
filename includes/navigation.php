@@ -3,10 +3,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-9 social">
-                    <a href="#"><span class="fa fa-twitter"></span></a>
-                    <a href="#"><span class="fa fa-facebook"></span></a>
-                    <a href="#"><span class="fa fa-instagram"></span></a>
-                    <a href="#"><span class="fa fa-youtube-play"></span></a>
+                    <a href="#"><span class="fa fas-twitter"></span></a>
+                    <a href="#"><span class="fa fas-facebook"></span></a>
+                    <a href="#"><span class="fa fas-instagram"></span></a>
+                    <a href="#"><span class="fa fas-youtube-play"></span></a>
                 </div>
                 <div class="col-3 search-top">
                     <!-- <a href="#"><span class="fa fa-search"></span></a> -->

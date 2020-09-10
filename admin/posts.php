@@ -37,6 +37,7 @@ if (isset($_POST['publish'])) {
     }
 }
 
+
 //delete post
 if (isset($_GET['delete_post']) && $_GET['delete_post'] !== '') {
     $dlt = $_GET['delete_post'];
@@ -46,6 +47,7 @@ if (isset($_GET['delete_post']) && $_GET['delete_post'] !== '') {
         die('FAILED');
     }
 }
+
 
 
 //approve post

@@ -34,8 +34,14 @@
             break;
         }
         $hashedPwd = md5($pwd);
-        $sql = mysqli_query($mysqli, "INSERT INTO users VALUES('','$username','$email','$hashedPwd','$profile_pic','yes',0,'Admin')");
-        header("Location: ../../cms-admin.php?admin_created");
+        $sql = mysqli_query($mysqli, "INSERT INTO users(username, email, password, profile_pic, is_active, post_id, role) VALUES('$username','$email','$hashedPwd','$profile_pic','yes',0,'Admin')");
+          if (!$sql) {
+              die("Could not send data " . mysqli_error($mysqli));
+              // header("Location: ../posts.php?source=add_new");
+          } else {
+              header("Location: ../../admin");
+
+          }
       }
     }
   }
@@ -47,3 +53,4 @@
     $data = strip_tags($data);
     return $data;
   }
+

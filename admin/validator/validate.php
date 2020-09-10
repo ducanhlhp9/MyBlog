@@ -24,7 +24,7 @@ if(isset($_POST['submit'])) {
     }
     else {
         $password = md5($password);
-        $query = mysqli_query($connection, "INSERT INTO users(username,email,password,is_active,role) VALUES('$username', '$email', '$password','$image','$role')");
+        $query = mysqli_query($connection, "INSERT INTO users(username,email,password,profile_pic,is_active,post_id, role) VALUES('$username', '$email', '$password','$image','yes', 0,'$role')");
         if(!$query) {
             $msg = "<b>Could not add user</b>";
             echo "<div class='$class-success'>$msg</div>";

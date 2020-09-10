@@ -2,7 +2,8 @@
 <?php session_start(); ?>
 <?php include "db.php"; ?>
 <?php include "functions.php"; ?>
-<?php (isset($_SESSION['userLogged'])) ? $user = $_SESSION['userLogged'] : header("Location: ../cms-admin.php");
+<?php
+(isset($_SESSION['userLogged'])) ? $user = $_SESSION['userLogged'] : header("Location: ../cms-admin.php");
 $sql = mysqli_query($connection, "SELECT * FROM users WHERE email='$user'");
 $row = mysqli_fetch_array($sql);
 $username = $row['username'];
@@ -34,8 +35,8 @@ $role = $row['role'];
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
     <!-- jQuery -->
