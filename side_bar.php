@@ -14,15 +14,22 @@
             <img src="images/canh.jpg" alt="Image Placeholder" class="img-fluid">
             <div class="bio-body">
                 <h2>Anh HD</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis sunt repellendus
-                    excepturi beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.</p>
-                <p><a href="#" class="btn btn-primary btn-sm">Read my bio</a></p>
-                <p class="social">
-                    <a href="https://twitter.com/HongcAn52449307" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="https://www.facebook.com/hoangduc.anh.1420/" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="https://github.com/ducanhlhp9" class="p-2"><span class="fa fa-github"></span></a>
-                    <a href="https://www.linkedin.com/in/hoang-duc-anh-668872192/" class="p-2"><span class="fa fa-linkedin"></span></a>
-                </p>
+
+                <p><a href="contact.php" class="btn btn-primary btn-sm">About Me</a></p>
+                <div class=" col md-12 row" style="margin-top: 50px">
+                    <a  href="https://www.facebook.com/hoangduc.anh.1420/" class="col-md-3 center">
+                        <img src="images/facebook.png" alt="Image placeholder" class="img-fluid" style="width: 50px">
+                    </a>
+                    <a  href="https://twitter.com/HongcAn52449307" class="col-md-3 center">
+                        <img src="images/twitter.png" alt="Image placeholder" class="img-fluid" style="width: 50px">
+                    </a>
+                    <a href="https://www.linkedin.com/in/hoang-duc-anh-668872192/" class="col-md-3 center">
+                        <img src="images/linkedin.png" alt="Image placeholder" class="img-fluid" style="width: 50px">
+                    </a>
+                    <a href="https://github.com/ducanhlhp9" class="col-md-3 center">
+                        <img src="images/github.png" alt="Image placeholder" class="img-fluid" style="width: 50px">
+                    </a>
+                </div>
             </div>
         </div>
     </div>
