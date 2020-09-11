@@ -2,50 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969d4e04-ce1a-47ef-bd5a-a2f9fa8c7125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner_home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner_work.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/contact.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/twitter.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/big_image_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/big_image_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/heros.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jonas-elia-x6HHgq2zDvI-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/myC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_testimonial_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photography.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tristen-lee-ZBWtD2UmMzA-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/v2osk-uUbEvoRfRdY-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/images/progHub5f59e581bbc0a2.44731725.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/images/progHub5f59e591f058d4.88270214.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/add_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/add_post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view_users.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/create_admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner_home.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/home.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/banner.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/banner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/tags.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/side_bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/side_bar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lorem.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/tag_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tag_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,15 +68,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/validator" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\blogging_system\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\blogging_system\images" />
       <recent name="D:\xampp\htdocs\blogging_system" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\blogging_system\images" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -138,7 +120,9 @@
       <workItem from="1599725540516" duration="3702000" />
       <workItem from="1599729258055" duration="1964000" />
       <workItem from="1599744673503" duration="8017000" />
-      <workItem from="1599790028324" duration="7487000" />
+      <workItem from="1599790028324" duration="7727000" />
+      <workItem from="1599830874097" duration="3822000" />
+      <workItem from="1599835344256" duration="5393000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1599667313456</created>

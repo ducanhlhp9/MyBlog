@@ -6,7 +6,7 @@
                 <div class="owl-carousel owl-theme home-slider">
                     <div>
                         <a href="" class="a-block d-flex align-items-center height-lg"
-                           style="background-image: url('images/banner_home.png'); ">
+                           style="background-image: url('images/home.png'); ">
 
                         </a>
                     </div>

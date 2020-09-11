@@ -1,5 +1,5 @@
 <?php
-$query = "SELECT * FROM categories ORDER BY cat_id DESC LIMIT 3";
+$query = "SELECT * FROM categories ORDER BY cat_id DESC LIMIT 5";
 $result = mysqli_query($connection, $query);
 ?>
 

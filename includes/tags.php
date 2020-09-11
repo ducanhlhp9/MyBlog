@@ -12,11 +12,11 @@ $result = mysqli_query($connection, $sql);
         $tags = explode(',',$row['post_tags']);
         ?>
         <li><?php foreach($tags as $tag) {
-                echo "<a href=''class='btn btn-primary' style='margin:2px;color:#000;'>#$tag</a>";
+                echo "<a href =''class='btn btn-primary' style='margin:2px;color:#000;'>#$tag</a>";
               }?></li>
-              
+
               <?php }
-      
+
      ?>
 
   </ul>
