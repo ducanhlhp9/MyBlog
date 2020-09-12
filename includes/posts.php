@@ -1,5 +1,15 @@
 <?php
-$query = "SELECT * FROM posts WHERE post_status='published'ORDER BY post_id DESC";
+
+
+
+//$sql = "SELECT * FROM posts LIMIT $offset, $no_of_records_per_page";
+//$res_data = mysqli_query($connection,$sql);
+//while($row = mysqli_fetch_array($res_data)){
+//    //here goes the data
+//}
+?>
+<?php
+$query = "SELECT * FROM posts WHERE post_status='published' ORDER BY post_id DESC LIMIT $offset, $no_of_records_per_page";
 $result = mysqli_query($connection, $query);
 
 while($row = mysqli_fetch_assoc($result)){
@@ -17,6 +27,7 @@ while($row = mysqli_fetch_assoc($result)){
   $post_comment_count = $row['post_comment_count'];
 
   ?>
+
   <div class="col-md-6">
     <a href="single.php?post=<?php echo $post_id; ?>" class="blog-entry element-animate" data-animate-effect="fadeIn">
       <img src="admin/<?php echo $post_image;?>" alt="Image placeholder">
@@ -31,5 +42,7 @@ while($row = mysqli_fetch_assoc($result)){
     </a>
   </div>
 
+
 <?php }
  ?>
+<?php include "pagination.php"?>

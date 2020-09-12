@@ -18,25 +18,7 @@
                 </div>
             </div>
             <div class="row blog-entries">
-                <div class="col-md-12">
-                    <p class="mb-12">
-                        <img src="images/contact.jpg" alt="Image placeholder" class="img-fluid" style="display: block;
-                            margin-left: auto;
-                            margin-right: auto;
-                            width: 50%;">
-                    <p>Lorem ipsum dolor sit amet sa ksal sk sa, consectetur adipisicing elit. Ipsa harum inventore
-                        reiciendis.Lorem ipsum dolor sit amet sa ksal sk sa, consectetur adipisicing elit. Ipsa harum
-                        inventore
-                        reiciendisLorem ipsum dolor sit amet sa ksal sk sa, consectetur adipisicing elit. Ipsa harum
-                        inventore
-                        reiciendisLorem ipsum dolor sit amet sa ksal sk sa, consectetur adipisicing elit. Ipsa harum
-                        inventore
-                        reiciendis</p>
-                    </p>
-
-
-                </div>
-                <div class="col-md-12 col-lg-8 main-content">
+                <div class="col-md-12 col-lg-6 main-content">
 
                     <form action="#" method="post">
                         <div class="row">
@@ -61,19 +43,23 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="submit" value="Send Message" class="btn btn-primary">
+                            <div class="col-md-12 form-group">
+                                <input style="display: block; margin: 0 auto 20px auto;" type="submit" value="Send Message" class="btn btn-primary" >
                             </div>
                         </div>
                     </form>
 
 
                 </div>
+                <div class="col-md-12 col-lg-6 main-content">
+                    <img src="images/boy.png" alt="Image placeholder" class="img-fluid" style="display: block;
+                            margin: 10px auto 0 auto;
+                            width: 40%;">
+                </div>
 
                 <!-- END main-content -->
 
                 <!-- start side_bar-->
-
 
                 <!--end side_bar-->
 

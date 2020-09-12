@@ -13,8 +13,6 @@
       <th>Post Content</th>
       <th>Post Date</th>
       <th>Post Tags</th>
-      <th>Approve Post</th>
-      <th>Unapprove Post</th>
       <th>Edit</th>
       <th>Delete</th>
     </thead>

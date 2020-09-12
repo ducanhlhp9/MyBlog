@@ -57,14 +57,21 @@
 </div>
 
 </div>
+
+
+
+
+
 <!--<script>-->
-<!--CKEDITOR.replace('editor');-->
+<!--    ClassicEditor-->
+<!--        .create( document.querySelector( '#editor' ) )-->
+<!--        .then( editor => {-->
+<!--            console.log( editor );-->
+<!--        } )-->
+<!--        .catch( error => {-->
+<!--            console.error( error );-->
+<!--        } );-->
 <!--</script>-->
 <script>
-    $(document).ready(function(){
-
-
-        CKEDITOR.addCss('body {font-family: "Roboto", "Helvetica", "Arial", sans-serif;}');
-        var contentEditor = CKEDITOR.replace( 'editor' );
-    });
+    CKEDITOR.replace( 'editor' );
 </script>

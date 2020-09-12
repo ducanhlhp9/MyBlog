@@ -1,21 +1,13 @@
 <div class="col-md-12 col-lg-4 sidebar">
-    <div class="sidebar-box search-form-wrap">
-        <form action="search.php" class="search-form" method="post">
-            <div class="form-group">
-                <span class="icon fa fa-search"></span>
-                <input type="text" name="search" class="form-control" id="s"
-                       placeholder="Type a keyword and hit enter">
-            </div>
-        </form>
-    </div>
 
     <div class="sidebar-box">
         <div class="bio text-center">
             <img src="images/canh.jpg" alt="Image Placeholder" class="img-fluid">
             <div class="bio-body">
                 <h2>Anh HD</h2>
+                <p> “Yesterday is history, tomorrow is mystery, today is a gift , that is why it is called the present.”</p>
 
-                <p><a href="contact.php" class="btn btn-primary btn-sm">About Me</a></p>
+                <p><a href="contact.php" class="btn btn-primary btn-sm">Contact Me</a></p>
                 <div class=" col md-12 row" style="margin-top: 50px">
                     <a  href="https://www.facebook.com/hoangduc.anh.1420/" class="col-md-3 center">
                         <img src="images/facebook.png" alt="Image placeholder" class="img-fluid" style="width: 50px">

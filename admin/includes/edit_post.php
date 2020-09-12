@@ -90,5 +90,5 @@ if (isset($_GET['edit_post']) && $_GET['edit_post'] != "") {
 
 </div>
 <script>
-  CKEDITOR.replace('editor');
+    CKEDITOR.replace( 'editor' );
 </script>

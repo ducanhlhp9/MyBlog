@@ -25,7 +25,7 @@
                     <!-- <a href="#"><span class="fa fa-search"></span></a> -->
                     <form action="search.php" class="search-top-form" method="post">
                         <span class="icon fa fa-search"></span>
-                        <input type="text" name="search" id="s" placeholder="Type keyword to search...">
+                        <input type="text" name="search" id="s" placeholder="Type a tag to search...">
                     </form>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                     </li>
                     <?php show_cat(); ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">About</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                 </ul>
 
