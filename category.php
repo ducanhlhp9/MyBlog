@@ -12,7 +12,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="mb-4">Categories</h2>
+                    <?php
+                    (isset($_GET['cat_id'])) ? $cat_id = $_GET['cat_id'] : header("Location: index.php");
+                    $query = "SELECT * FROM categories WHERE cat_id=$cat_id ";
+                    $result = mysqli_query($connection, $query);
+                    while($row = mysqli_fetch_assoc($result)){
+                    $cat_title = $row['cat_title'];
+                    ?>
+                    <h2 class="category mb-3" style="margin-top: 10px; padding: 10px 10px; font-size: 15px"><?php echo $cat_title;?></h2>
+                    <?php }
+                    ?>
                 </div>
             </div>
             <div class="row blog-entries">

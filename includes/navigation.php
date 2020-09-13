@@ -4,18 +4,18 @@
             <div class="row">
                 <div class="col-9">
                     <div class="row">
-                        <a href="https://www.facebook.com/hoangduc.anh.1420/" class="col-md-1 center">
+                        <a href="https://www.facebook.com/hoangduc.anh.1420/" >
                             <img src="images/facebook.png" alt="Image placeholder" class="img-fluid"
                                  style="width: 50px">
                         </a>
-                        <a href="https://twitter.com/HongcAn52449307" class="col-md-1 center">
+                        <a href="https://twitter.com/HongcAn52449307" >
                             <img src="images/twitter.png" alt="Image placeholder" class="img-fluid" style="width: 50px">
                         </a>
-                        <a href="https://www.linkedin.com/in/hoang-duc-anh-668872192/" class="col-md-1 center">
+                        <a href="https://www.linkedin.com/in/hoang-duc-anh-668872192/" >
                             <img src="images/linkedin.png" alt="Image placeholder" class="img-fluid"
                                  style="width: 50px">
                         </a>
-                        <a href="https://github.com/ducanhlhp9" class="col-md-1 center">
+                        <a href="https://github.com/ducanhlhp9" >
                             <img src="images/github.png" alt="Image placeholder" class="img-fluid" style="width: 50px">
                         </a>
 

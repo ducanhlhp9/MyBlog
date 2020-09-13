@@ -23,7 +23,7 @@ if (isset($_GET['pageno'])) {
 } else {
     $pageno = 1;
 }
-$no_of_records_per_page = 8;
+$no_of_records_per_page = 6;
 $offset = ($pageno-1) * $no_of_records_per_page;
 
 if (mysqli_connect_errno()){

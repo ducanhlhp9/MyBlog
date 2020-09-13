@@ -11,6 +11,15 @@
     <section class="site-section py-sm">
         <div class="container">
 
+            <?php
+            if (isset($_POST['message'])) {
+                $name = $_POST['name'];
+                $phone = $_POST['phone'];
+                $email = $_POST['email'];
+                $message = $_POST['message'];
+                $message_obj->addMessage($name, $phone, $email, $message);
+            }
+            ?>
             <div class="row">
 
                 <div class="col-md-12">
@@ -19,20 +28,19 @@
             </div>
             <div class="row blog-entries">
                 <div class="col-md-12 col-lg-6 main-content">
-
-                    <form action="#" method="post">
+                    <form action="contact.php" method="post">
                         <div class="row">
                             <div class="col-md-12 form-group">
                                 <label for="name">Name</label>
-                                <input type="text" id="name" class="form-control ">
+                                <input type="text" id="name" name="name" class="form-control ">
                             </div>
                             <div class="col-md-12 form-group">
                                 <label for="phone">Phone</label>
-                                <input type="text" id="phone" class="form-control ">
+                                <input type="text" name="phone" id="phone" class="form-control ">
                             </div>
                             <div class="col-md-12 form-group">
                                 <label for="email">Email</label>
-                                <input type="email" id="email" class="form-control ">
+                                <input type="email" name="email" id="email" class="form-control ">
                             </div>
                         </div>
                         <div class="row">
@@ -44,7 +52,8 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 form-group">
-                                <input style="display: block; margin: 0 auto 20px auto;" type="submit" value="Send Message" class="btn btn-primary" >
+                                <input style="display: block; margin: 0 auto 20px auto;" type="submit" name="message"
+                                       value="Send Message" class="btn btn-primary">
                             </div>
                         </div>
                     </form>

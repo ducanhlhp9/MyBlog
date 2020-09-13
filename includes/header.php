@@ -2,7 +2,9 @@
 <?php include "db.php"; ?>
 <?php include "function.php"; ?>
 <?php include "classes/Comment.php"; ?>
+<?php include "classes/Message.php"; ?>
 <?php $comment_obj = new Comment($connection); ?>
+<?php $message_obj = new Message($connection); ?>
 <!doctype html>
 <html lang="en">
 <head>

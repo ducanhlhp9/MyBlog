@@ -23,8 +23,6 @@ class Comment
             $query = mysqli_query($this->con, "INSERT INTO comments(name, email, message, status,post_id) VALUES('$name','$email','$message','approved', $id);");
             if (!$query) {
                 die("Failed " . mysqli_error($this->con));
-                header("Location: ../../admin");
-
             }
         } else {
             return false;
