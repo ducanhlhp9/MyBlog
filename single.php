@@ -168,9 +168,8 @@
                         $id = $_GET['post'];
                         if (isset($_POST['comment'])) {
                             $name = $_POST['name'];
-                            $email = $_POST['email'];
                             $message = $_POST['message'];
-                            $comment_obj->addComments($id, $name, $email, $message);
+                            $comment_obj->addComments($id, $name, $message);
                         }
                     }
                     ?>

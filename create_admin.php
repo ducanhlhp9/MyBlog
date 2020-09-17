@@ -1,20 +1,32 @@
 <style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #17a2b8;
+        height: 100vh;
+    }
+
     .form {
+        margin-top: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
     }
+    .form div{
+         color: #0b2e13;
+     }
 
     .background {
-        background-color: tomato;
+        background-size: cover;
     }
 
     .form input {
         width: 400px;
     }
 </style>
+<body>
 <div class="background">
     <form action="includes/form_handler/create.php" method="post" role="form" class="form" autocomplete="off">
         <h3>Create a new Admin</h3>
@@ -39,3 +51,4 @@
         </div>
     </form>
 </div>
+</body>

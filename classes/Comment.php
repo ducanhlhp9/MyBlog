@@ -17,10 +17,10 @@ class Comment
         $this->con = $con;
     }
 
-    public function addComments($id, $name, $email, $message)
+    public function addComments($id, $name, $message)
     {
         if (!empty($message)) {
-            $query = mysqli_query($this->con, "INSERT INTO comments(name, email, message, status,post_id) VALUES('$name','$email','$message','approved', $id);");
+            $query = mysqli_query($this->con, "INSERT INTO comments(name, message, status,post_id) VALUES('$name','$message','approved', $id);");
             if (!$query) {
                 die("Failed " . mysqli_error($this->con));
             }
