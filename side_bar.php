@@ -36,5 +36,6 @@
     <!-- END sidebar-box -->
 
     <?php include 'includes/tags.php'; ?>
+
 </div>
 <!-- END sidebar -->

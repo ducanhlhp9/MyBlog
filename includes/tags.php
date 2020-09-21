@@ -24,4 +24,12 @@ $result = mysqli_query($connection, $sql);
         <a >
 
     </ul>
+    <div id="cp_widget_a77b2094-c4f3-4d6c-8a42-596e87c132f1">...</div><script type="text/javascript">
+        var cpo = []; cpo["_object"] ="cp_widget_a77b2094-c4f3-4d6c-8a42-596e87c132f1"; cpo["_fid"] = "AAOAFuueICCL";
+        var _cpmp = _cpmp || []; _cpmp.push(cpo);
+        (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+            cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+            var c = document.getElementsByTagName("script")[0];
+            c.parentNode.insertBefore(cp, c); })(); </script>
 </div>
+

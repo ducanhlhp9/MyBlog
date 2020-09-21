@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969d4e04-ce1a-47ef-bd5a-a2f9fa8c7125" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/create_admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/search_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/search_post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/side_bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/side_bar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +113,10 @@
       <workItem from="1599919173496" duration="7626000" />
       <workItem from="1599961299898" duration="4675000" />
       <workItem from="1600346379083" duration="198000" />
-      <workItem from="1600352114647" duration="5009000" />
+      <workItem from="1600352114647" duration="5605000" />
+      <workItem from="1600394260884" duration="17000" />
+      <workItem from="1600394392329" duration="1148000" />
+      <workItem from="1600660771290" duration="1724000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1599667313456</created>

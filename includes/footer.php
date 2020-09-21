@@ -6,6 +6,7 @@
         width: 50%;
     }
 </style>
+
 <footer class="site-footer" style="padding: 10px">
     <div class="container">
         <div class=" col md-12 row" style="text-align: center">
